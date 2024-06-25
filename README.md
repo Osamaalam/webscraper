@@ -6,6 +6,8 @@ This repository showcases a web scraping website built with a focus on modern de
 - **Tailwind CSS :** A utility-first CSS framework offering rapid and responsive design customization.
 - **Node Mailer :** NodeMailer is a Node JS module that allows you to send emails from your server easily.
 - **Bright Data :** A global technology company that offers web data collection and proxy services to B2B companies.
+- **Web Scraping :** Extrating Important info from a website.
+  
 
 This website serves as a demonstration of my skills in building modern, responsive, and user-friendly web applications. Feel free to explore the code and see how these technologies are implemented!
 
