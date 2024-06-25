@@ -54,7 +54,7 @@ const Modal = ({ productId }: Props) => {
                 <div className="flex justify-between">
                   <div className="p-3 border border-gray-200 rounded-10">
                     <Image
-                      src="/assets/icons/logo.svg"
+                      src="/assets/icons/logo.png"
                       alt="logo"
                       width={28}
                       height={28}

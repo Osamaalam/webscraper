@@ -45,8 +45,8 @@ This website serves as a demonstration of my skills in building modern, responsi
 
 ### Price Tracks
 
-![alt text](image-2.png)
+![alt text](image-4.png)
 
 ### Email Modal
 
-![alt text](image-3.png)
+![alt text](image-5.png)
