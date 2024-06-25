@@ -1,36 +1,52 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Introduction
 
-## Getting Started
+This repository showcases a web scraping website built with a focus on modern development tools. It utilizes the following technologies:
 
-First, run the development server:
+- **Next.js :** A React framework for server-side rendering and static site generation, providing a smooth user experience.
+- **Tailwind CSS :** A utility-first CSS framework offering rapid and responsive design customization.
+- **Node Mailer :** NodeMailer is a Node JS module that allows you to send emails from your server easily.
+- **Bright Data :** A global technology company that offers web data collection and proxy services to B2B companies.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+This website serves as a demonstration of my skills in building modern, responsive, and user-friendly web applications. Feel free to explore the code and see how these technologies are implemented!
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Real time data being fetching from Amazon Pakistan's official site.
+- A dynamic search-bar capable of getting products from the URLs enterd and add them to our search.
+- Tracking of products average-price, highest-price, lowest-price and ofcourse the current price.
+- MongoDB for full data access and its aggregation, server-side JavaScript execution.
+- Automatic emailing what the price reaches the preferred price.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Tech Stack
 
-## Learn More
+- Next.js
+- Tailwind
+- NodeMailer
+- Bright Data
+- Cron Job
 
-To learn more about Next.js, take a look at the following resources:
+## What I learned
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Styles Tailwind CSS
+- Data collection with Brigh Data
+- NodeMailer's email service.
+- Tailwind's reponsive webdesign
+- Git commands to upload the project
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+# ScreenShots
 
-## Deploy on Vercel
+### Home
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+![alt text](image.png)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Top Searches
+
+![alt text](image-1.png)
+
+### Price Tracks
+
+![alt text](image-2.png)
+
+### Email Modal
+
+![alt text](image-3.png)
