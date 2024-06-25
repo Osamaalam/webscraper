@@ -23,13 +23,16 @@ const Navbar = () => {
       <nav className="nav">
         <Link href="/" className="flex items-center gap-1">
           <Image
-            src="/assets/icons/logo.svg"
-            width={27}
-            height={27}
+            src="/assets/icons/logo2.png"
+            width={160}
+            height={160}
             alt="logo"
           />
-          <p className="nav-logo">
-            Price<span className="text-primary">Wise</span>
+          <p
+            className="nav-logo"
+            style={{ fontSize: "3rem", paddingLeft: "0px", marginLeft: "0px" }}
+          >
+            Track<span className="text-green-500">Lib</span>
           </p>
         </Link>
         <div className="flex items-center gap-5">

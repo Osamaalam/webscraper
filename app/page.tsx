@@ -13,7 +13,7 @@ const Home = async () => {
         <div className="flex max-xl:flex-col gap-16">
           <div className="flex flex-col justify-center">
             <p className="small-text">
-              Smart Shopping Starts Here:
+              Smart Tracking Begins Here:
               <Image
                 src="/assets/icons/arrow-right.svg"
                 alt="arrow-right"
@@ -22,12 +22,12 @@ const Home = async () => {
               />
             </p>
             <h1 className="head-text">
-              Unleash the power of{" "}
-              <span className="text-primary "> PriceWise</span>
+              You wish, we track through{" "}
+              <span className="text-green-500 "> TrackLib</span>
             </h1>
             <p className="mt-6">
-              Powerfull, self-serve product and growth analytics to help you
-              convert, engage and retain more.
+              Robust self-serve product and growth analytics to increase
+              conversion, engagement, and retention.
             </p>
             <Searchbar />
           </div>
@@ -35,7 +35,7 @@ const Home = async () => {
         </div>
       </section>
       <section className="trending-section">
-        <h2 className="section-text">Trending</h2>
+        <h2 className="section-text">Our Top Searches</h2>
         <div className="flex flex-wrap gap-x-8 gap-y-16">
           {allProducts?.map((product) => (
             <ProductCard key={product.id} product={product} />
