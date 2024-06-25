@@ -23,14 +23,15 @@ const Navbar = () => {
       <nav className="nav">
         <Link href="/" className="flex items-center gap-1">
           <Image
-            src="/assets/icons/logo2.png"
-            width={160}
-            height={160}
+            src="/assets/icons/logo.png"
+            width={40}
+            height={40}
             alt="logo"
+            className="rounded-full"
           />
           <p
             className="nav-logo"
-            style={{ fontSize: "3rem", paddingLeft: "0px", marginLeft: "0px" }}
+            style={{ fontSize: "3rem", padding: "0px", margin: "0px" }}
           >
             Track<span className="text-green-500">Lib</span>
           </p>
