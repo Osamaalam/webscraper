@@ -1,3 +1,5 @@
+Updated: 2025-08-04
+
 ## Introduction
 
 This repository showcases a web scraping website built with a focus on modern development tools. It utilizes the following technologies:
